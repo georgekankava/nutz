@@ -16,7 +16,7 @@ import static java.lang.String.*;
  */
 public class Invoking {
     /*------------------------------------------------------------------------*/
-    private static abstract class Invoker {
+    private abstract static class Invoker {
 
         protected Method method;
 

@@ -233,7 +233,7 @@ public class FastClassAdpter implements Opcodes {
 		}
 	}
 
-	public final static void createInokeMethod(	MethodVisitor mv,
+	public static final void createInokeMethod(	MethodVisitor mv,
 												String[] methodNames,
 												String[] descs,
 												int[] modifies,
@@ -247,7 +247,7 @@ public class FastClassAdpter implements Opcodes {
 		adpter.createInvokeMethod();
 	}
 
-	public final static void createInokeConstructor(MethodVisitor mv,
+	public static final void createInokeConstructor(MethodVisitor mv,
 													String enhancedSuperName,
 													Constructor<?>[] constructors) {
 		FastClassAdpter adpter = new FastClassAdpter(mv, enhancedSuperName);

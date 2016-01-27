@@ -25,7 +25,7 @@ public class SystemLogAdapter implements LogAdapter, Plugin {
      */
     public static class SystemLog extends AbstractLog {
 
-        private final static SystemLog me = new SystemLog();
+        private static final SystemLog me = new SystemLog();
         
         private static boolean warned;
 

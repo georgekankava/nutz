@@ -25,7 +25,7 @@ import org.nutz.lang.util.Callback3;
 
 public class _Infos {
 
-    private final static String ERR_MSG = "Method '%s'(%s) can not add '@Column', it MUST be a setter or getter!";
+    private static final String ERR_MSG = "Method '%s'(%s) can not add '@Column', it MUST be a setter or getter!";
 
     @SuppressWarnings("rawtypes")
     private static <T extends FieldInfo> T create(Class<T> classOfT, Field field) {

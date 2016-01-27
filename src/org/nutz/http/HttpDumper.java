@@ -63,7 +63,7 @@ public class HttpDumper {
         return sb.toString();
     }
 
-    static public String dumpHeaders(HttpServletRequest request) {
+    public static String dumpHeaders(HttpServletRequest request) {
         StringBuilder sb = new StringBuilder();
         Enumeration<?> em = request.getHeaderNames();
         sb.append('\n');
