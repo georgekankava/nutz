@@ -103,7 +103,7 @@ public class Mirror<T> {
 
     }
 
-    private final static DefaultTypeExtractor defaultTypeExtractor = new DefaultTypeExtractor();
+    private static final DefaultTypeExtractor defaultTypeExtractor = new DefaultTypeExtractor();
 
     /**
      * 包裹一个类

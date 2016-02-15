@@ -45,7 +45,7 @@ public class NutConf {
     // zozoh 单利的话，没必要用这个吧 ...
     // private static final Lock lock = new ReentrantLock();
 
-    private volatile static NutConf conf;
+    private static volatile NutConf conf;
 
     private static NutConf me() {
         if (null == conf) {

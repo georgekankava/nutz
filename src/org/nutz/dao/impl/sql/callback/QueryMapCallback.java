@@ -14,7 +14,7 @@ import org.nutz.dao.sql.SqlContext;
 
 public class QueryMapCallback implements SqlCallback {
 
-    public final static SqlCallback me = new QueryMapCallback();
+    public static final SqlCallback me = new QueryMapCallback();
 
     public Object invoke(Connection conn, ResultSet rs, Sql sql)
             throws SQLException {
